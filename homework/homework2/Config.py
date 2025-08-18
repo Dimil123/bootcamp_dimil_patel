@@ -5,18 +5,13 @@
    "execution_count": 1,
    "id": "8a0a884a-13ee-4006-8325-370c976c556b",
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "C:\\Users\\My PC\\New folder\\New folder\\miniconda4\\envs\\bootcamp_env\\python.exe\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
-    "import sys\n",
-    "print(sys.executable)"
+    "import os\n",
+    "from typing import Optional\n",
+    "\n",
+    "def get_key(name: str, default: Optional[str] = None) -> Optional[str]:\n",
+    "    return os.getenv(name, default)"
    ]
   },
   {
@@ -25,13 +20,11 @@
    "id": "dde020dc-c49b-4958-9b41-19bc367dc967",
    "metadata": {},
    "outputs": [],
-   "source": [
-    "import pandas as pd"
-   ]
+   "source": []
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+    "execution_count": 3
    "id": "156b849e-acdf-4f19-a5c8-1d79e9170591",
    "metadata": {},
    "outputs": [],
