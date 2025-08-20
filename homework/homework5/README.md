@@ -1,9 +1,13 @@
 **data/raw/ :** To Store csv files
+
 **data/processed/ :** To Store parquet/pq files (efficient data management)
 
 **Format used:**
+
 Age : Float : expecting till 1 decimal
+
 Income : Numeric : check differnet methode/ flaot can be used
+
 Date : Datetime64 : convinient to manage dates with this type
 
 **How the Code Reads and Writes Data**
