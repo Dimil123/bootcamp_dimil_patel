@@ -7,7 +7,8 @@ Income : Numeric : check differnet methode/ flaot can be used
 Date : Datetime64 : convinient to manage dates with this type
 
 **How the Code Reads and Writes Data**
-The codebase is designed to be flexible and robust in handling data I/O:
+
+It is designed to be flexible and robust in handling data I/O:
 
 Environment Variables: The paths to the raw and processed data directories are configured using environment variables (DATA_DIR_RAW and PROCESS_DIR_RAW). If these are not set, the code falls back to default paths (data/raw and data/processed respectively), making the script portable and easy to configure.
 
