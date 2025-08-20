@@ -1,0 +1,14 @@
+Sources:
+https://finance.yahoo.com
+https://en.wikipedia.org
+Validations:
+Data validated for dates of stock inclusion in the index
+Assumptions
+1. Futures can be traded at clsoing price without any significant impact
+2. Restructing is not expected in near term
+3. Corporate actions have negligible impact on individual stock weights change.
+Risks
+1. Impact of corporate action neglected in the calculations due to lack of data availability, which is having significant
+impact on weights of individual stocks and may impact on slipage and replication efficiency.
+2. Index restructing is not captured in project, which means if new stock is added cost related to adding it and removing 
+old stock may impact slipage and replication efficiency.
