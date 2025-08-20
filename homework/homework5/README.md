@@ -6,7 +6,7 @@
 
 Age : Float : expecting till 1 decimal
 
-Income : Numeric : check differnet methode/ flaot can be used
+Income : Numeric : check differnet methode/ float can be used
 
 Date : Datetime64 : convinient to manage dates with this type
 
